@@ -4,7 +4,7 @@ In this repository, you will find starter files for the homework assignments for
 
 ### Homework Assignments
 
-- [Homework 0 - Git / Setup](https://aphamdd.github.io/CS410-Intro-to-Web-Development/)
+- [Homework 0 - Git / Setup](https://github.com/aphamdd/CS410-Intro-to-Web-Development/blob/main/hw0/hw0.md)
 - [Homework 1 - HTML / Accessibility](https://aphamdd.github.io/CS410-Intro-to-Web-Development/hw1/03-navbar.html
 - [Homework 2 - CSS]
 - [Homework 3 - Flexbox, CSS Grid, Bootstrap]
