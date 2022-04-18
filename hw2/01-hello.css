@@ -16,5 +16,5 @@ img {
 }
 
 p::first-line {
-  color: blue;
+  color: var(--navy);
 }
