@@ -1,12 +1,33 @@
+:root {
+  --default-color: green;
+  --hover-color: orange;
+  --active-color: black;
+  --text-color: white;
+}
+
 body {
   margin: 0;
 }
 
-.nav-list {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-.list-item {
+li {
+  float: left;
 }
 
-.nav-link {
+a {
+  background-color: var(--default-color);
+  display: block;
+  color: var(--text-color);
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
 }
+
+a:hover {background-color: var(--hover-color);}
+a:active {background-color: var(--active-color);}
