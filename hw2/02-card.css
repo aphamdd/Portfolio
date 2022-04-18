@@ -1,5 +1,18 @@
+:root {
+  --main-color: navy;
+  --btn-transition-color: orange;
+  --text-color: white;
+}
+
 .container {
   width: 300px;
+  padding: 15px;
+  border: 1px solid var(--main-color);
+  border-radius: 5px 5px 5px 5px;
+}
+
+h2.card {
+  text-align: center;
 }
 
 .image {
@@ -8,4 +21,13 @@
 
 .btn {
   width: 100%;
+  background-color: var(--main-color);
+  border: none;
+  color: var(--text-color);
+  padding: 14px;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: var(--btn-transition-color);
 }
