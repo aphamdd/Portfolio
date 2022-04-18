@@ -1,7 +1,7 @@
 :root {
   --main-color: navy;
   --btn-transition-color: orange;
-  --text-color: white;
+  --active-color: white;
 }
 
 .container {
@@ -23,11 +23,11 @@ h2.card {
   width: 100%;
   background-color: var(--main-color);
   border: none;
-  color: var(--text-color);
+  color: var(--active-color);
   padding: 14px;
   transition-duration: 0.4s;
 }
 
-.btn:hover {
-  background-color: var(--btn-transition-color);
-}
+.btn:hover {background-color: var(--btn-transition-color);}
+
+.btn:focus {background-color: var(--active-color);}
