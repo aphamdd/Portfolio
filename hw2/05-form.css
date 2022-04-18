@@ -1,14 +1,59 @@
 .form {
+    /*display: flex;
+    flex-flow: wrap;*/
+    width: 350px;
+    height: 500px;
+    border: 1px solid var(--navy);
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-.form-element {
+.form input {
+    margin: 5px 10px 5px 0;
+    display: flex;
 }
 
-.btn {
+.form label {
+    margin: 5px 10px 5px 0;
+    display: flex;
+}
+
+.radio-label {
+    font-weight: normal;
 }
 
 .btn-primary {
+    padding: 8px 60px;
+    background-color: var(--green);
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    padding: 8px 60px;
+    background-color: var(--orange);
+    border-radius: 5px 5px 5px 5px;
+    color: var(--black);
+    cursor: pointer;
 }
 
 .btn-secondary {
+    padding: 8px 60px;
+    background-color: var(--white);
+    border: 1px solid;
+    border-radius: 5px 5px 5px 5px;
+    border-color: var(--black);
+    color: var(--black);
+}
+
+.btn-secondary:hover {
+    padding: 8px 60px;
+    background-color: var(--black);
+    border: 1px solid;
+    border-radius: 5px 5px 5px 5px;
+    border-color: var(--white);
+    color: var(--white);
 }
