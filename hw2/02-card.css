@@ -22,4 +22,7 @@ h2.card {
   transition-duration: 0.4s;
 }
 
-.btn:hover {background-color: var(--orange);}
+.btn:hover {
+  background-color: var(--orange);
+  color: var(--black);
+}
