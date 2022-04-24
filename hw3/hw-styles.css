@@ -3,6 +3,20 @@ h1 {
 }
 
 /* Code for exercise 01-flex */
+.flex-container-1 {
+  display: flex; 
+  flex-flow: row wrap-reverse; /* Shorthand */
+  justify-content: flex-end;
+}
+
+.flex-container-1 .item1 { order: 3; }
+.flex-container-1 .item2 { order: 3; }
+.flex-container-1 .item3 { order: 5; }
+.flex-container-1 .item4 { order: 2; }
+.flex-container-1 .item5 { order: 6; }
+.flex-container-1 .item6 { order: 7; }
+.flex-container-1 .item7 { order: 1; }
+.flex-container-1 .item8 { order: 8; }
 
 /* Code for exercise 02-flex */
 
