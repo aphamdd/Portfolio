@@ -29,6 +29,26 @@ h1 {
 }
 
 /* Code for exercise 03-grid */
+.grid-container-1 {
+  display: grid;
+  min-height: 85vh;
+  grid-template: 
+            'seven seven seven seven'
+            'one two two three'
+            'four two two five'
+            'four two two five'
+            'six six eight eight';
+  gap: 5px;
+}
+
+.grid-container-1 .item1 { grid-area: one; }
+.grid-container-1 .item2 { grid-area: two; }
+.grid-container-1 .item3 { grid-area: three; }
+.grid-container-1 .item4 { grid-area: four; }
+.grid-container-1 .item5 { grid-area: five; }
+.grid-container-1 .item6 { grid-area: six; }
+.grid-container-1 .item7 { grid-area: seven; }
+.grid-container-1 .item8 { grid-area: eight; }
 
 /* Code for exercise 04-grid */
 
