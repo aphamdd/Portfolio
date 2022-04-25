@@ -22,6 +22,10 @@ h1 {
 
 .flex-container-2 {
   height: 400px;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-items: center; 
 }
 
 /* Code for exercise 03-grid */
