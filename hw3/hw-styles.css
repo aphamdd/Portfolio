@@ -32,7 +32,9 @@ h1 {
 .grid-container-1 {
   display: grid;
   min-height: 85vh;
-  grid-template: 
+  grid-template-rows: 1fr 1fr 1fr 2fr 2fr;
+  grid-template-columns: auto auto auto auto;
+  grid-template-areas: 
             'seven seven seven seven'
             'one two two three'
             'four two two five'
