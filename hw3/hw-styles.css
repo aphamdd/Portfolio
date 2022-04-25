@@ -51,6 +51,62 @@ h1 {
 .grid-container-1 .item8 { grid-area: eight; }
 
 /* Code for exercise 04-grid */
+@media (max-width: 414px) {
+  .grid-container-2 {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 1fr 1fr 0px 1fr;
+    gap: 5px;
+  }
+
+  .grid-container-2 .item6 { grid-row-start: 3; }
+}
+
+@media (min-width: 415px) and (max-width: 768px) {
+  .grid-container-2 {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr 1fr 0px;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    'header header'
+    'jumbotron jumbotron'
+    'section section'
+    'card1 card2'
+    'footer footer';
+    gap: 5px;
+  }
+
+  .grid-container-2 .item1 { grid-area: header; }
+  .grid-container-2 .item2 { grid-area: jumbotron; }
+  .grid-container-2 .item3 { grid-area: card1; }
+  .grid-container-2 .item4 { grid-area: card2; }
+  .grid-container-2 .item5 { display: none; }
+  .grid-container-2 .item6 { grid-area: section; }
+  .grid-container-2 .item7 { grid-area: footer; }
+}
+
+@media (min-width: 769px) {
+  .grid-container-2 {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    'header header header'
+    'jumbotron jumbotron jumbotron'
+    'card1 card2 card3'
+    'section section section'
+    'footer footer footer';
+    gap: 5px;
+  }
+
+  .grid-container-2 .item1 { grid-area: header; }
+  .grid-container-2 .item2 { grid-area: jumbotron; }
+  .grid-container-2 .item3 { grid-area: card1; }
+  .grid-container-2 .item4 { grid-area: card2; }
+  .grid-container-2 .item5 { grid-area: card3; }
+  .grid-container-2 .item6 { grid-area: section; }
+  .grid-container-2 .item7 { grid-area: footer; }
+}
+
 
 /* Code for exercise 05-bootstrap-grid */
 
