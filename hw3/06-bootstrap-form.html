@@ -13,10 +13,56 @@
     <link rel="stylesheet" href="hw-styles.css" />
   </head>
   <body>
-    <main>
-      <form>
-        <h1>Contact Form</h1>
-      </form>
+    <main class="container">
+      <form class="bg-light mx-auto rounded border p-3 m-3">
+        <h1>CONTACT FORM</h1>
+
+        <div class="row">
+          <div class="form-group d-sm-flex d-md-inline-flex flex-sm-wrap flex-md-nowrap pb-3 row-md">
+            <label for="Username" class="col-md">Username:</label>
+            <input type="text" class="form-control col-md" id="Username">
+          </div>
+
+          <div class="form-group d-sm-flex d-md-inline-flex flex-sm-wrap flex-md-nowrap pb-3 row-md">
+            <label for="Email" class="col-md">Email:</label>
+            <input type="email" class="form-control col-md" id="Email">
+          </div>
+
+          <div class="form-group d-sm-flex d-md-inline-flex flex-sm-wrap flex-md-nowrap row-md">
+            <label for="Password" class="col-md">Password:</label>
+            <input type="password" class="form-control col-md" id="Password">
+          </div>
+
+          <div class="pt-3">
+            <p>Would you like to sign up for the newsletter?</p>
+          </div>
+
+          <div class="pb-3">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="select-radio" id="yes-radio">
+              <label class="form-check-label" for="yes">
+                Yes, sign me up
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="select-radio" id="no-radio">
+              <label class="form-check-label" for="no">
+                No, thank you
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group d-sm-flex d-md-inline-flex flex-sm-wrap flex-md-nowrap pb-3">
+            <label for="Date" class="col-md">Date:</label>
+            <input type="date" class="form-control col-md" id="Date">
+          </div>
+
+          <div class="d-flex flex-nowrap">
+            <button type="submit" class="btn btn-primary btn-block col me-1">Submit</button>
+            <button type="reset" class="btn btn-secondary btn-block col">Reset</button>
+          </div>
+        </div>
+      
     </main>
   </body>
 </html>
