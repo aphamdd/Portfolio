@@ -21,10 +21,14 @@ const deleteItem = (item) => {
 const lookupItem = (index) => {
   // return the item from result at index, deleting the obtained item
   let x = index;
-  index = result[x];
-  result.splice(x, 1);
 
-  return index;
+  if (result[x] !== undefined) {
+    index = result[x];
+    result.splice(x, 1);
+    return index;
+  }
+
+  return null;
 };
 
 const printItems = () => {
