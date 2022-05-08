@@ -1,5 +1,14 @@
 const calculateTime = (date1, date2) => {
   // Given two dates, calculate and return the amount of time elapsed in years and months
+  let secondDate = new Date(date2).getTime();
+  let firstDate = date1;
+
+  let elap = (firstDate - secondDate); 
+  let years = ((((elap / 1000) / 60) / 60) / 24) / 365;
+  console.log(years);
+
+
+
 };
 
 // Date() formats:
