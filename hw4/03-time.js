@@ -3,12 +3,18 @@ const calculateTime = (date1, date2) => {
   let secondDate = new Date(date2).getTime();
   let firstDate = date1;
 
-  let elap = (firstDate - secondDate); 
-  let years = ((((elap / 1000) / 60) / 60) / 24) / 365;
-  console.log(years);
-
-
-
+  if (!isNaN(secondDate)) {
+    let elap = (firstDate - secondDate); 
+    let years = ((((elap / 1000) / 60) / 60) / 24) / 365;
+    let months = Math.floor((years % 1) * 12);
+    if (Math.floor(years) > 0)
+      return ("Time elapsed: "+ Math.floor(years) + " years, " + months + " months");
+    else
+      return ("Time elapsed: " + months + " months");
+  }
+  else {
+    return("Error: Invalid input provided.");
+  }
 };
 
 // Date() formats:
