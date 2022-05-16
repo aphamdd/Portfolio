@@ -9,6 +9,7 @@ const addDrinksToDOM = (drinks) => {
   let img = document.createElement('img');
   let beverage = document.createElement('p');
 
+  img.alt = 'Image of non-alcoholic drinks';
   img.src = drinks.strDrinkThumb;
   beverage.textContent = drinks.strDrink;
   card.onmouseenter = function() {
@@ -49,7 +50,6 @@ const fetchData = (url) => {
         console.log(drinks.strDrink);
         addDrinksToDOM(drinks);
       });
-
     })
     .catch((error) => {
       console.error(error);
