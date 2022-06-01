@@ -13,10 +13,12 @@
     <script defer src="final.js"></script>
   </head>
   <body class="" id="main">
-
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll my-nav">
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
       <div class="container">
-        <a class="navbar-brand" href="#">Anthony Pham</a>
+        <a class="navbar-brand nav-text" href="#home">
+          <img src="../images/bash.png" height="40px" width="40px" alt="home">
+          Anthony Pham
+        </a>
       <!-- Toggle button -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -24,16 +26,16 @@
         <div class="collapse navbar-collapse" id="navContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link nav-text" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#work">Work</a>
+              <a class="nav-link nav-text" href="#work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link nav-text" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link nav-text" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -44,47 +46,133 @@
       <div class="container-fluid">
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 home-text">
-                <h2 class="home-title">Hi! I'm Anthony Pham</h2>
-                <p class="home-desc">I am a Computer Science student at PSU</p>
+                <h2 class="home-title">Hello! Welcome to my website!</h2>
+                <p class="home-desc">This is my portfolio</p>
             </div>
           </div>
       </div>
     </section>
 
-    <section id="about">
-      <div class="container mt-4 pt-4">
-        <h1 class="text-center">About Me</h1>
-        <div class="row mt-4">
-          <div class="col-lg-4">
-              <img src="../images/dog.jpg" class= "about-image" alt="picture of Anthony Pham">
+    <section id="about" class="m-4">
+      <div class="container pt-4">
+        <div class="row">
+          <div class="col-lg-4 pb-4">
+              <img src="../images/me.jpg" class= "about-image" alt="picture of Anthony Pham">
           </div>
           <div class="col-lg-8">
+            <h1 class="text-center pb-3">My name is Anthony Pham</h1>
             <p> 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+              I am a 4th year student at Portland State University pursuing a B.S. in Computer Science. Currently, I am looking to gain experience in the industry and I am always willing to learn new topics that I've never encountered before! In Computer Science, there are endless topics to learn and you can never run out of things to learn as there are always new ideas coming in every day around the world. I've done a bit of frontend, but I am more focused on backend systems and want to expand my skillset. In my freetime, I enjoy reading, gaming, and hiking!
             </p>
               <div class="row mt-3">
                 <div class="col-md-6">
                   <ul>
-                    <li>Name: Anthony</li>
-                    <li>Age: 21</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>C#</li>
                   </ul>
                 </div>
               </div>
               <div class="row mt-3">
-                <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                </p>
               </div>
           </div>
         </div>
       </div>
     </section>
   
-    <section id="previouswork">
+    <section id="work" class="m-4">
+      <div class="container mt-4">
+        <div class="row mt-4">
+          <div class="col-lg pb-4">
+          <h1 class="">Education</h1>
+          <ul>
+            <h2>Portland State University</h2>
+            <p>Bachelor of Science, Computer Science 3.8 GPA <b>Graduating in March 2023</b></p><br>
+          </ul>
+
+          <h1 class="">Work</h1>
+          <ul>
+            <h2>Portland State University</h2>
+            <h3>Lab Attendant/Helpdesk Technician</h3>
+            <h4>Dec. 2018 - Mar. 2022</h4>
+            <ul>
+              <li>Managed Labs at PSU</li>
+              <li>Assisted users with technical issues via in-person/phone</li>
+              <li>Created and resolved tickets with Jira</li>
+            </ul>
+          </ul>
+          </div>
+          <div class="col-lg pb-4">
+            <img src="../images/psu.png" class= "about-image" alt="picture of Anthony Pham">
+          </div>
+        </div>
+      </div>
     </section>
+
     <section id="projects">
+      <div class="container mt-4 pt-4">
+        <h1 class="text-center">Projects</h1>
+        <div class="row mt-4 text-center">
+
+          <div class="col-sm mt-4">
+            <div class="card">
+              <img class="card-img-top" src="../images/mapbox.png" alt="Picture of RAIL project">
+              <div class="card-body">
+                <h4 class="card-title">RAIL</h4>
+                <p class="card-text">Data pipeline that gathers breadcrumb data from C-Tran. It automatically collects GPS data, transports, validates, and transforms the data into a PostgreSQL database. Able to make SQL queries and visualize the data on MapBox GLJS.</p>
+                <div class="text-center">
+                  <a href="https://github.com/aphamdd/CS410-Data-Engineering" target="_blank" class="btn btn-success" style="background-color:gray;">Github Icon</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm mt-4">
+            <div class="card">
+              <img class="card-img-top" src="../images/frupal.png" alt="Picture of project">
+              <div class="card-body">
+                <h4 class="card-title">FRUPAL</h4>
+                <p class="card-text">Simple top-down object-oriented RPG game. The goal of this game is to travel as few spaces as possible to collect the big diamond which rewards you with 10,000 Frupals to win the game! Be wary of obstacles and use items!</p>
+                <div class="text-center">
+                  <a href="https://www.google.com" target="_blank" class="btn btn-success" style="background-color:gray;">Github Icon</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </section>
+
+
     <section id="contact">
+      <div class="container mt-3 contactContent">
+        <h1 class="text-center">Contact Me</h1>
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <!-- form fields -->
+                <form>
+                    <input type="text" class="form-control form-control-lg" placeholder="Name">
+                    <input type="email" class="form-control mt-3" placeholder="Email">
+                    <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-success mt-3">Contact Me</button>
+            </div>
+        </div>
+    </div>
     </section>
+
+    <footer id="footer">
+      <div class="container-fluid">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+        </div>
+    </div>
+    </footer>
 
   </body>
 </html>

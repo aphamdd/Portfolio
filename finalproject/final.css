@@ -1,19 +1,23 @@
 #main {
+    background-color: #010931;
+    color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 /* Navbar css */
-//.my-nav {
-    background-color: #787878;
-    opacity: 0.5;
-    color: black;
+.nav-text {
+    color: white;
+    text-shadow: 2px 2px #000000;
 }
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: #0c0c0c;
+    box-shadow: 0 2px 4px 0 rgba(0, 255, 8, 0.28)
 }
 /* hero-page css */
 .bgimage {
     height:100vh;
-    background: url('../images/toby_taru.jpg');
+    /* Polygon shape vector created by freepik - www.freepik.com */
+    background: url('../images/bg.jpg');
     background-size:cover;
     position:relative;
 }
@@ -35,8 +39,26 @@
 
 /* about page css */
 #about {
-    background-color: gray;
+    background-color: #00205D;
 }
 .about-image {
     width: 100%;
+}
+
+#work {
+    background-color: #00205D;
+}
+
+.card {
+    background-color: #472C4C;
+    height: 100%;
+    width: 100%;
+}
+
+/* spacing on all sections */
+#about, #work, #projects, #contact {
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
 }
