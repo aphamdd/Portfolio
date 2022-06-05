@@ -55,6 +55,11 @@
     width: 100%;
 }
 
+.footer-icons {
+    font-size: 38px;
+    text-align: center;
+}
+
 /* spacing on all sections for the navbar to not overlap */
 #about, #work, #projects, #contact {
     padding-top: 4rem;
