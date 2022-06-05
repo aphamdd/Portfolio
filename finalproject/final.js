@@ -1,4 +1,3 @@
-// add class navbarDark on navbar scroll
 const header = document.querySelector('.navbar');
 const burger = document.querySelector('.navbar-toggler');
 
@@ -11,7 +10,6 @@ window.onscroll = function() {
 }
 
 window.addEventListener("resize", function() {
-    if ($(window).width() < 992) {
+    if ($(window).width() < 992)
         $(burger).addClass('navbar-dark bg-dark');
-    }
 })
