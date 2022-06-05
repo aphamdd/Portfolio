@@ -55,7 +55,7 @@
     width: 100%;
 }
 
-/* spacing on all sections */
+/* spacing on all sections for the navbar to not overlap */
 #about, #work, #projects, #contact {
     padding-top: 4rem;
 }
