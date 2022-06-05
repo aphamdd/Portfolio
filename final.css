@@ -17,7 +17,7 @@
 .bgimage {
     height:100vh;
     /* Polygon shape vector created by freepik - www.freepik.com */
-    background: url('../images/bg.jpg');
+    background: url('images/bg.jpg');
     background-size:cover;
     position:relative;
 }

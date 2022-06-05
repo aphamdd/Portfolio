@@ -5,7 +5,7 @@ It is a simple portfolio which contains some information about me, my projects
 and previous experiences. The webpage is deployed using github pages and
 doesn't require any extra dependencies to run.
 
-References/Sources
+References/Sources  
 https://www.w3schools.com/howto/howto_js_navbar_slide.asp  
 https://shawnspears.github.io/  
 https://psutblock.github.io/index.html  
