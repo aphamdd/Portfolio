@@ -1,18 +1,14 @@
-## CS410/510: Intro to Web Development - Homework Repository
+## CS410/510: Intro to Web Development - Final Project: Portfolio
 
-In this repository, you will find starter files for the homework assignments for CS 410/510: Intro to Web Development. Check the Canvas classroom for more details on each assignment.
+This project is a final project for my intro to web development class.
+It is a simple portfolio which contains some information about me, my projects
+and previous experiences. The webpage is deployed using github pages and
+doesn't require any extra dependencies to run.
 
-### Homework Assignments
-
-- [Homework 0 - Git / Setup](https://github.com/aphamdd/CS410-Intro-to-Web-Development/blob/main/hw0/hw0.md)
-- [Homework 1 - HTML / Accessibility](https://aphamdd.github.io/CS410-Intro-to-Web-Development/hw1/03-navbar.html)
-- [Homework 2 - CSS]
-- [Homework 3 - Flexbox, CSS Grid, Bootstrap]
-- [Homework 4 - JavaScript]
-- [Homework 5 - JavaScript / APIs]
-
-Check Canvas for more information on each assignment
-
-### Setting Up The Homework Repo
-
-For detailed instructions on how to set up the homework repo, start with the [hw0.md](https://github.com/caterinasworld/webdev-homework/blob/main/hw0/hw0.md) file.
+References/Sources
+https://www.w3schools.com/howto/howto_js_navbar_slide.asp
+https://shawnspears.github.io/
+https://psutblock.github.io/index.html
+https://www.youtube.com/watch?v=MscGIBk68So
+www.freepik.com
+https://getbootstrap.com/docs/4.0/layout/grid/
